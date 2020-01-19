@@ -13,6 +13,11 @@ function Joined({ data }) {
     <Layout>
       <Head>
         <title>Joined the tech world</title>
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@telmo" />
+        <meta name="twitter:title" content="How I joined the tech world" />
+        <meta name="twitter:description" content="Stories on how people joined the amazing world of tech. Tell yours 🙂" />
+        <meta name="twitter:image" content="https://happened.tech/images/twitter-card.png" />
       </Head>
 
       <Grid>

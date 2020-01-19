@@ -35,10 +35,15 @@ function JoinedStory({ data, content }) {
             </div>
 
             <div className="story__subtitle">
-              {title} • {' '}
-              <a href={`https://twitter.com/${twitter}`} target="_blank">
-                <span className="underline">@{twitter}</span>
-              </a>
+              {title}
+              {twitter && (
+                <>
+                  {' '} • {' '}
+                  <a href={`https://twitter.com/${twitter}`} target="_blank">
+                    <span className="underline">@{twitter}</span>
+                  </a>
+                </>
+              )}
             </div>
 
             <div className="story__content">

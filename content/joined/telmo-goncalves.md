@@ -1,7 +1,6 @@
 ---
 name: "Telmo Goncalves"
 title: "Lead at Marley Spoon"
-email: "telmogoncalves@me.com"
 avatar: "https://pbs.twimg.com/profile_images/1217738108776734721/-oPFJ_Lj_400x400.jpg"
 twitter: "telmo"
 ---
