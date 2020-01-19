@@ -1,0 +1,38 @@
+.category-item {
+  box-shadow: 3px 3px 0 rgba(255, 198, 0, .15);
+  border-radius: 8px;
+  border: 2px #999 solid;
+  display: block;
+  margin: 10vh 0;
+  padding: 80px 40px;
+  text-decoration: none;
+  transition: all .2s linear;
+
+  @media (max-width: 600px) {
+    margin: 4vh 0;
+  }
+
+  &__title {
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 600;
+    display: inline-block;
+    margin-top: 0;
+    transition: all .2s linear;
+  }
+
+  &__description {
+    color: #ddd;
+    font-size: 1.2rem;
+  }
+
+  &:hover {
+    border-color: #ffc600;
+  }
+
+  &:hover & {
+    &__title {
+      box-shadow: inset 0 -.10em 0 0 #ffc600;
+    }
+  }
+}
