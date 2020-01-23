@@ -16,8 +16,12 @@ function JoinedStory({ data, content }) {
   return (
     <Layout>
       <div className="back-button">
+        <Link href="/">
+          <a>// home</a>
+        </Link>
+
         <Link href="/joined">
-          <a>←</a>
+          <a>// joined</a>
         </Link>
       </div>
 

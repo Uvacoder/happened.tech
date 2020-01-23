@@ -17,7 +17,7 @@ body {
   }
 
   &__subtitle {
-    color: #c9d6de;
+    color: #ffc600;
     font-size: 4.1vmin;
     margin-top: 3vh;
   }
@@ -40,14 +40,14 @@ body {
     display: inline-block;
     text-decoration: none;
     background: rgba(255, 198, 0, .1);
-    font-size: 16px;
+    font-size: 14px;
     text-align: center;
     border-radius: 250px;
-    width: 30px;
-    padding-top: 3.5px;
-    height: 30px;
+    padding: 5px 14px 6px;
+    letter-spacing: -1px;
     color: #ffc600;
     box-sizing: border-box;
+    margin-right: 10px;
 
     &:hover {
       background: #ffc600;

@@ -25,7 +25,7 @@ function Layout({ children }) {
 
         <br />
 
-        Hosted on <a href="http://zeit.co/">Zeit</a>.
+        Hosted on <a href="http://zeit.co/" target="_blank">Zeit</a>.
       </footer>
     </div>
   )

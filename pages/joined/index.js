@@ -20,6 +20,12 @@ function Joined({ data }) {
         <meta name="twitter:image" content="https://happened.tech/images/twitter-card.png" />
       </Head>
 
+      <div className="back-button">
+        <Link href="/">
+          <a>// home</a>
+        </Link>
+      </div>
+
       <Grid>
         <Row>
           <Col>

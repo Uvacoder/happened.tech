@@ -1,7 +1,7 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import { Grid, Row, Col } from 'react-flexbox-grid'
 import Link from 'next/link'
-import Router from 'next/router'
+import Head from 'next/head'
 
 import Layout from '../containers/Layout'
 
@@ -9,14 +9,17 @@ import { topics } from './data/topics.json'
 import './style.scss'
 
 function Homepage() {
-  useEffect(() => {
-    // Will leave this here until there's (hopefully)
-    // more topics to add here
-    Router.push('/joined')
-  }, [])
-
   return (
     <Layout>
+      <Head>
+        <title>Happened in Tech</title>
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@telmo" />
+        <meta name="twitter:title" content="Happened in Tech" />
+        <meta name="twitter:description" content="Stories and Curated Resources for folks in tech." />
+        <meta name="twitter:image" content="https://happened.tech/images/twitter-card.png" />
+      </Head>
+
       <Grid>
         <Row>
           <Col md={12}>
