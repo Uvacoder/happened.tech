@@ -20,7 +20,7 @@ function Layout({ children }) {
 
         <br />
 
-        Check the <a href="https://github.com/telmogoncalves/happened.tech" target="_blank">source code</a>. {' '}
+        Check the <a href="https://github.com/uvacoder/happened.tech" target="_blank">source code</a>. {' '}
         Add your own story.
 
         <br />
